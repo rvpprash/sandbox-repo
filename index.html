@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Html tabs</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div id="tab-bar" class="tab-bar">
+        <span id="tab1" class="tab selected-tab">
+          <a href="#content1" class="button" onclick="tabEvent(event, 'tab1')">
+            First Tab
+          </a>
+        </span>
+        <span id="tab2" class="tab">
+          <a href="#content2" class="button" onclick="tabEvent(event, 'tab2')">
+            Second Tab
+          </a>
+        </span>
+        <span id="tab3" class="tab">
+          <a href="#content3" class="button" onclick="tabEvent(event, 'tab3')">
+            Third Tab
+          </a>
+        </span>
+      </div>
+
+      <div id="container" class="tab-container">
+        <div id="content1" class="content">
+          This is some text for first tab
+        </div>
+        <div id="content2" class="content">
+          This is some text for second tab
+        </div>
+        <div id="content3" class="content">
+          This is some text for third tab
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
