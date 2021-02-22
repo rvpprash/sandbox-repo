@@ -1,2 +1,2 @@
 # sandbox-repo
-Created with CodeSandbox
+Code snippets from code sandbox
